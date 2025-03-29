@@ -17,13 +17,17 @@ body{
 .container{
     display: flex;
     min-width: 30dvw;
+    max-width: 90dvw;
+    min-height: 250px;
     justify-content: center;
-    border: 1px solid black;
+    align-items: center;
     align-content: center;
     padding: 20px 30px;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: rgba(4, 5, 4, 0.2) 0 -25px 18px -14px inset,rgba(2, 5, 3, 0.15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(7, 11, 8, 0.15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(3, 10, 6, 0.15) 0 16px 32px;
     }
+    
 
     .display{
         max-width: 80%;
